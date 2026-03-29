@@ -1,0 +1,8 @@
+
+
+docker start cassandra-server
+docker exec -it cassandra-server cqlsh
+
+USE acme_productions;
+rabitMQ:
+http://localhost:15672/#/queues/%2F/nasdaqqueue
