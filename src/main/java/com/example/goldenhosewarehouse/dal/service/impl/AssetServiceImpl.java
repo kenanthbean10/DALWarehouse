@@ -45,6 +45,7 @@ public class AssetServiceImpl implements AssetService {
         // In Cassandra, save() acts as both "Insert" and "Update" (Upsert)
         if (asset.getSystemDate() == null) {
             asset.setSystemDate(java.time.Instant.now());
+            System.out.println("hi");
         }
         return assetRepository.save(asset);
     }
