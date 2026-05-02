@@ -1,8 +1,11 @@
 package com.example.goldenhosewarehouse.dal.service;
 
 import com.example.goldenhosewarehouse.dal.domain.DataSourceEntity;
+import org.springframework.data.domain.Slice;
 
 import java.util.List;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Slice;
 
 public interface DataSourceService {
 
@@ -14,5 +17,5 @@ public interface DataSourceService {
 
     // DataSourceService.java (Interface)
     DataSourceEntity createSource(DataSourceEntity source);
-
+    Slice<DataSourceEntity> getAllSourcesPaged(Pageable pageable);
 }

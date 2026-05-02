@@ -10,6 +10,7 @@ import org.springframework.data.domain.Slice;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class AssetServiceImpl implements AssetService {
@@ -30,6 +31,8 @@ public class AssetServiceImpl implements AssetService {
     public List<String> getAllAssetIdentifiers() {
         return assetRepository.findAllAssetIds();
     }
+
+
 
     /**
      * [Q2]to fetch full asset details.
@@ -64,6 +67,14 @@ public class AssetServiceImpl implements AssetService {
     public Slice<AssetEntity> getAllAssets(Pageable pageable) {
         return assetRepository.findAll(pageable);
     }
-
+    @Override
+    public List<String> getAllAssetIdentifiersUserPaged(int offset, int limit) {
+        return assetRepository.findAllAssetIds()
+                .stream()
+                .sorted()
+                .skip(offset)       // skip the first `offset` items
+                .limit(limit)       // then take only `limit` items
+                .collect(Collectors.toList());
+    }
 
 }

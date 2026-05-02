@@ -5,6 +5,7 @@ import com.example.goldenhosewarehouse.dal.repository.DataSourceRepository;
 import org.springframework.data.cassandra.core.CassandraTemplate;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Slice;
+import org.springframework.data.domain.SliceImpl;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -87,6 +88,28 @@ public class DataSourceRepositoryImpl implements DataSourceRepository {
 
     @Override
     public Slice<DataSourceEntity> findAll(Pageable pageable) {
-        return null;
+
+        // LINE 1: Write the raw CQL — LIMIT controls page size
+        // pageable.getPageSize() returns whatever "size" the client sent
+        // e.g. ?size=5 → LIMIT 5
+        String cql = "SELECT * FROM data_source LIMIT " + pageable.getPageSize();
+
+        // LINE 2: Execute the query and map each row to DataSourceEntity
+        List<DataSourceEntity> content = cassandraTemplate
+                .getCqlOperations()
+                .query(
+                        cql,
+                        (row, rowNum) -> cassandraTemplate
+                                .getConverter()
+                                .read(DataSourceEntity.class, row)
+                );
+
+        // LINE 3: Build a Slice manually
+        // params: data, pageable info, hasNext
+        // hasNext = true if we got a full page (might be more)
+        // hasNext = false if we got less than requested (last page)
+        boolean hasNext = content.size() == pageable.getPageSize();
+
+        return new SliceImpl<>(content, pageable, hasNext);
     }
 }

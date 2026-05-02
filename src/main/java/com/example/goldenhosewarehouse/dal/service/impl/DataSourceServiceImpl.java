@@ -3,6 +3,8 @@ package com.example.goldenhosewarehouse.dal.service.impl;
 import com.example.goldenhosewarehouse.dal.domain.DataSourceEntity;
 import com.example.goldenhosewarehouse.dal.repository.DataSourceRepository;
 import com.example.goldenhosewarehouse.dal.service.DataSourceService;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Slice;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -27,5 +29,11 @@ public class DataSourceServiceImpl implements DataSourceService {
     public DataSourceEntity getSourceById(String id) {
         return dataSourceRepository.findLatest(id)
                 .orElseThrow(() -> new RuntimeException("Data Source with ID " + id + " not found."));
+    }
+
+
+    @Override
+    public Slice<DataSourceEntity> getAllSourcesPaged(Pageable pageable) {
+        return dataSourceRepository.findAll(pageable);
     }
 }

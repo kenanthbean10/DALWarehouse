@@ -67,4 +67,12 @@ private final AssetService assetService;
         return ResponseEntity.ok(assetService.getAllAssets(pageable));
     }
 
+    @GetMapping("/userpaged")
+    public List<String> getAllAssetIdentifiersUserDefiendPagination(
+            @RequestParam(defaultValue = "0") int offset,
+            @RequestParam(defaultValue = "20") int limit
+    ) {
+        return assetService.getAllAssetIdentifiersUserPaged(offset, limit);
+    }
+
 }

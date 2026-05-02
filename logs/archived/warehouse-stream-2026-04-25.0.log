@@ -1,0 +1,258 @@
+2026-04-25 13:05:50,421 INFO  [restartedMain] o.s.b.StartupInfoLogger: Starting GoldenhosewarehouseApplication using Java 17.0.17 with PID 33788 (E:\Data Journey\Subjects\Data Warehous\project\code\goldenhosewarehouse\goldenhosewarehouse\target\classes started by thbea in E:\Data Journey\Subjects\Data Warehous\project\code\goldenhosewarehouse\goldenhosewarehouse)
+2026-04-25 13:05:50,425 INFO  [restartedMain] o.s.b.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2026-04-25 13:05:50,475 INFO  [restartedMain] o.s.b.l.DeferredLog: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-25 13:05:50,476 INFO  [restartedMain] o.s.b.l.DeferredLog: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-25 13:05:51,461 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+2026-04-25 13:05:51,506 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 39 ms. Found 0 Reactive Cassandra repository interfaces.
+2026-04-25 13:05:51,511 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+2026-04-25 13:05:51,532 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 20 ms. Found 1 Cassandra repository interface.
+2026-04-25 13:05:52,006 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port 8080 (http)
+2026-04-25 13:05:52,018 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-25 13:05:52,021 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Starting service [Tomcat]
+2026-04-25 13:05:52,021 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.30]
+2026-04-25 13:05:52,065 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2026-04-25 13:05:52,065 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1589 ms
+2026-04-25 13:05:52,144 INFO  [restartedMain] c.d.o.d.i.c.DefaultMavenCoordinates: Apache Cassandra Java Driver (org.apache.cassandra:java-driver-core) version 4.18.1
+2026-04-25 13:05:52,421 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2026-04-25 13:05:52,811 INFO  [restartedMain] c.d.o.d.i.c.c.CqlPrepareAsyncProcessor: Adding handler to invalidate cached prepared statements on type changes
+2026-04-25 13:05:53,133 INFO  [s0-admin-0] c.d.o.d.i.c.t.Clock: Using native clock for microsecond precision
+2026-04-25 13:05:53,378 WARN  [s0-io-3] c.d.o.d.i.c.m.DefaultTopologyMonitor: [s0] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+2026-04-25 13:05:53,791 WARN  [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration: 
+
+Using generated security password: 0e37e2b8-cf89-4691-8e81-af1e6b68fd90
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-25 13:05:53,823 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer: Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-25 13:05:54,168 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2026-04-25 13:05:54,176 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port 8080 (http) with context path '/'
+2026-04-25 13:05:54,185 INFO  [restartedMain] o.s.b.StartupInfoLogger: Started GoldenhosewarehouseApplication in 4.315 seconds (process running for 5.318)
+2026-04-25 13:06:37,988 INFO  [http-nio-8080-exec-3] o.a.j.l.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-25 13:06:37,989 INFO  [http-nio-8080-exec-3] o.s.w.s.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2026-04-25 13:06:37,990 INFO  [http-nio-8080-exec-3] o.s.w.s.FrameworkServlet: Completed initialization in 1 ms
+2026-04-25 13:37:37,470 INFO  [restartedMain] o.s.b.StartupInfoLogger: Starting GoldenhosewarehouseApplication using Java 17.0.17 with PID 25032 (E:\Data Journey\Subjects\Data Warehous\project\code\goldenhosewarehouse\goldenhosewarehouse\target\classes started by thbea in E:\Data Journey\Subjects\Data Warehous\project\code\goldenhosewarehouse\goldenhosewarehouse)
+2026-04-25 13:37:37,474 INFO  [restartedMain] o.s.b.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2026-04-25 13:37:37,531 INFO  [restartedMain] o.s.b.l.DeferredLog: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-25 13:37:37,531 INFO  [restartedMain] o.s.b.l.DeferredLog: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-25 13:37:37,993 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+2026-04-25 13:37:38,023 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 26 ms. Found 0 Reactive Cassandra repository interfaces.
+2026-04-25 13:37:38,027 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+2026-04-25 13:37:38,049 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 21 ms. Found 1 Cassandra repository interface.
+2026-04-25 13:37:38,380 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port 8080 (http)
+2026-04-25 13:37:38,387 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-25 13:37:38,389 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Starting service [Tomcat]
+2026-04-25 13:37:38,390 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.30]
+2026-04-25 13:37:38,433 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2026-04-25 13:37:38,433 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 902 ms
+2026-04-25 13:37:38,493 INFO  [restartedMain] c.d.o.d.i.c.DefaultMavenCoordinates: Apache Cassandra Java Driver (org.apache.cassandra:java-driver-core) version 4.18.1
+2026-04-25 13:37:38,673 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2026-04-25 13:37:38,931 INFO  [restartedMain] c.d.o.d.i.c.c.CqlPrepareAsyncProcessor: Adding handler to invalidate cached prepared statements on type changes
+2026-04-25 13:37:39,118 INFO  [s0-admin-0] c.d.o.d.i.c.t.Clock: Using native clock for microsecond precision
+2026-04-25 13:37:39,334 WARN  [s0-io-3] c.d.o.d.i.c.m.DefaultTopologyMonitor: [s0] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+2026-04-25 13:37:39,744 WARN  [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration: 
+
+Using generated security password: 05bfdcb8-9525-4f13-a505-7c89ce84170f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-25 13:37:39,763 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer: Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-25 13:37:40,058 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2026-04-25 13:37:40,067 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port 8080 (http) with context path '/'
+2026-04-25 13:37:40,079 INFO  [restartedMain] o.s.b.StartupInfoLogger: Started GoldenhosewarehouseApplication in 3.037 seconds (process running for 3.681)
+2026-04-25 13:38:51,073 INFO  [http-nio-8080-exec-2] o.a.j.l.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-25 13:38:51,074 INFO  [http-nio-8080-exec-2] o.s.w.s.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2026-04-25 13:38:51,078 INFO  [http-nio-8080-exec-2] o.s.w.s.FrameworkServlet: Completed initialization in 3 ms
+2026-04-25 15:08:25,625 ERROR [http-nio-8080-exec-9] o.a.j.l.DirectJDKLog: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Data Source with ID pagedresources not found.] with root cause
+java.lang.RuntimeException: Data Source with ID pagedresources not found.
+	at com.example.goldenhosewarehouse.dal.service.impl.DataSourceServiceImpl.lambda$getSourceById$0(DataSourceServiceImpl.java:29)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.example.goldenhosewarehouse.dal.service.impl.DataSourceServiceImpl.getSourceById(DataSourceServiceImpl.java:29)
+	at com.example.goldenhosewarehouse.api.web.DataSourceController.getSourceById(DataSourceController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-04-25 15:08:41,952 INFO  [restartedMain] o.s.b.StartupInfoLogger: Starting GoldenhosewarehouseApplication using Java 17.0.17 with PID 27932 (E:\Data Journey\Subjects\Data Warehous\project\code\goldenhosewarehouse\goldenhosewarehouse\target\classes started by thbea in E:\Data Journey\Subjects\Data Warehous\project\code\goldenhosewarehouse\goldenhosewarehouse)
+2026-04-25 15:08:41,955 INFO  [restartedMain] o.s.b.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2026-04-25 15:08:41,992 INFO  [restartedMain] o.s.b.l.DeferredLog: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-25 15:08:41,993 INFO  [restartedMain] o.s.b.l.DeferredLog: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-25 15:08:42,486 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+2026-04-25 15:08:42,514 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 25 ms. Found 0 Reactive Cassandra repository interfaces.
+2026-04-25 15:08:42,521 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+2026-04-25 15:08:42,539 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 17 ms. Found 1 Cassandra repository interface.
+2026-04-25 15:08:42,882 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port 8080 (http)
+2026-04-25 15:08:42,890 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-25 15:08:42,892 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Starting service [Tomcat]
+2026-04-25 15:08:42,892 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.30]
+2026-04-25 15:08:42,942 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2026-04-25 15:08:42,942 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 949 ms
+2026-04-25 15:08:43,003 INFO  [restartedMain] c.d.o.d.i.c.DefaultMavenCoordinates: Apache Cassandra Java Driver (org.apache.cassandra:java-driver-core) version 4.18.1
+2026-04-25 15:08:43,206 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2026-04-25 15:08:43,482 INFO  [restartedMain] c.d.o.d.i.c.c.CqlPrepareAsyncProcessor: Adding handler to invalidate cached prepared statements on type changes
+2026-04-25 15:08:43,657 INFO  [s0-admin-0] c.d.o.d.i.c.t.Clock: Using native clock for microsecond precision
+2026-04-25 15:08:43,871 WARN  [s0-io-3] c.d.o.d.i.c.m.DefaultTopologyMonitor: [s0] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+2026-04-25 15:08:44,228 WARN  [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration: 
+
+Using generated security password: bd982b1f-0426-4215-a505-a789ba2b9637
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-25 15:08:44,245 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer: Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-25 15:08:44,524 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2026-04-25 15:08:44,533 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port 8080 (http) with context path '/'
+2026-04-25 15:08:44,540 INFO  [restartedMain] o.s.b.StartupInfoLogger: Started GoldenhosewarehouseApplication in 3.034 seconds (process running for 3.75)
+2026-04-25 15:08:50,081 INFO  [http-nio-8080-exec-2] o.a.j.l.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-25 15:08:50,081 INFO  [http-nio-8080-exec-2] o.s.w.s.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2026-04-25 15:08:50,082 INFO  [http-nio-8080-exec-2] o.s.w.s.FrameworkServlet: Completed initialization in 1 ms
+2026-04-25 20:55:15,745 INFO  [restartedMain] o.s.b.StartupInfoLogger: Starting GoldenhosewarehouseApplication using Java 17.0.17 with PID 14180 (E:\Data Journey\Subjects\Data Warehous\project\code\goldenhosewarehouse\goldenhosewarehouse\target\classes started by thbea in E:\Data Journey\Subjects\Data Warehous\project\code\goldenhosewarehouse\goldenhosewarehouse)
+2026-04-25 20:55:15,750 INFO  [restartedMain] o.s.b.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2026-04-25 20:55:15,799 INFO  [restartedMain] o.s.b.l.DeferredLog: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-25 20:55:15,800 INFO  [restartedMain] o.s.b.l.DeferredLog: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-25 20:55:16,387 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+2026-04-25 20:55:16,422 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 30 ms. Found 0 Reactive Cassandra repository interfaces.
+2026-04-25 20:55:16,427 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+2026-04-25 20:55:16,447 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 19 ms. Found 1 Cassandra repository interface.
+2026-04-25 20:55:17,106 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port 8080 (http)
+2026-04-25 20:55:17,116 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-25 20:55:17,117 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Starting service [Tomcat]
+2026-04-25 20:55:17,117 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.30]
+2026-04-25 20:55:17,166 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2026-04-25 20:55:17,167 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1365 ms
+2026-04-25 20:55:17,247 INFO  [restartedMain] c.d.o.d.i.c.DefaultMavenCoordinates: Apache Cassandra Java Driver (org.apache.cassandra:java-driver-core) version 4.18.1
+2026-04-25 20:55:17,559 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2026-04-25 20:55:18,021 INFO  [restartedMain] c.d.o.d.i.c.c.CqlPrepareAsyncProcessor: Adding handler to invalidate cached prepared statements on type changes
+2026-04-25 20:55:18,536 INFO  [s0-admin-0] c.d.o.d.i.c.t.Clock: Using native clock for microsecond precision
+2026-04-25 20:55:18,867 WARN  [s0-io-3] c.d.o.d.i.c.m.DefaultTopologyMonitor: [s0] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+2026-04-25 20:55:19,413 WARN  [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration: 
+
+Using generated security password: a678ade6-abe5-47aa-8b81-c1dac70a113c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-25 20:55:19,454 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer: Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-25 20:55:19,886 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2026-04-25 20:55:19,904 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port 8080 (http) with context path '/'
+2026-04-25 20:55:19,915 INFO  [restartedMain] o.s.b.StartupInfoLogger: Started GoldenhosewarehouseApplication in 4.748 seconds (process running for 5.539)
+2026-04-25 20:55:59,968 INFO  [http-nio-8080-exec-1] o.a.j.l.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-25 20:55:59,969 INFO  [http-nio-8080-exec-1] o.s.w.s.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2026-04-25 20:55:59,970 INFO  [http-nio-8080-exec-1] o.s.w.s.FrameworkServlet: Completed initialization in 1 ms
+2026-04-25 21:14:17,635 INFO  [restartedMain] o.s.b.StartupInfoLogger: Starting GoldenhosewarehouseApplication using Java 17.0.17 with PID 13364 (E:\Data Journey\Subjects\Data Warehous\project\code\goldenhosewarehouse\goldenhosewarehouse\target\classes started by thbea in E:\Data Journey\Subjects\Data Warehous\project\code\goldenhosewarehouse\goldenhosewarehouse)
+2026-04-25 21:14:17,639 INFO  [restartedMain] o.s.b.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2026-04-25 21:14:17,694 INFO  [restartedMain] o.s.b.l.DeferredLog: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-25 21:14:17,694 INFO  [restartedMain] o.s.b.l.DeferredLog: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-25 21:14:18,495 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+2026-04-25 21:14:18,529 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 29 ms. Found 0 Reactive Cassandra repository interfaces.
+2026-04-25 21:14:18,534 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+2026-04-25 21:14:18,558 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 22 ms. Found 1 Cassandra repository interface.
+2026-04-25 21:14:19,067 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port 8080 (http)
+2026-04-25 21:14:19,078 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-25 21:14:19,084 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Starting service [Tomcat]
+2026-04-25 21:14:19,085 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.30]
+2026-04-25 21:14:19,145 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2026-04-25 21:14:19,146 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1450 ms
+2026-04-25 21:14:19,247 INFO  [restartedMain] c.d.o.d.i.c.DefaultMavenCoordinates: Apache Cassandra Java Driver (org.apache.cassandra:java-driver-core) version 4.18.1
+2026-04-25 21:14:19,547 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2026-04-25 21:14:20,156 INFO  [restartedMain] c.d.o.d.i.c.c.CqlPrepareAsyncProcessor: Adding handler to invalidate cached prepared statements on type changes
+2026-04-25 21:14:20,471 INFO  [s0-admin-0] c.d.o.d.i.c.t.Clock: Using native clock for microsecond precision
+2026-04-25 21:14:20,739 WARN  [s0-io-3] c.d.o.d.i.c.m.DefaultTopologyMonitor: [s0] Unable to determine broadcast RPC port.  Trying to fall back to port used by the control connection.
+2026-04-25 21:14:21,510 WARN  [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration: 
+
+Using generated security password: d92d0bbd-b547-446b-889c-7d12abcefdec
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-25 21:14:21,539 INFO  [restartedMain] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer: Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-25 21:14:22,376 INFO  [restartedMain] o.a.j.l.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2026-04-25 21:14:22,391 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port 8080 (http) with context path '/'
+2026-04-25 21:14:22,405 INFO  [restartedMain] o.s.b.StartupInfoLogger: Started GoldenhosewarehouseApplication in 5.33 seconds (process running for 6.246)
+2026-04-25 21:14:25,365 INFO  [http-nio-8080-exec-1] o.a.j.l.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-25 21:14:25,365 INFO  [http-nio-8080-exec-1] o.s.w.s.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2026-04-25 21:14:25,366 INFO  [http-nio-8080-exec-1] o.s.w.s.FrameworkServlet: Completed initialization in 1 ms
+2026-04-25 21:14:26,242 INFO  [http-nio-8080-exec-8] o.s.a.AbstractOpenApiResource: Init duration for springdoc-openapi is: 495 ms

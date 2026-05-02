@@ -1,11 +1,15 @@
 package com.example.goldenhosewarehouse.api.web;
 
 import com.example.goldenhosewarehouse.dal.domain.DataEntity;
+import com.example.goldenhosewarehouse.dal.dto.TimeSeriesResponse;
 import com.example.goldenhosewarehouse.dal.service.DataService;
+import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.data.domain.Slice;
 import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.util.Map;
@@ -65,6 +69,15 @@ public Iterable<DataEntity> getByRange(
         return dataService.saveData(dataRecord);
     }
 
+    @GetMapping("/stream")
+    public void streamData(@RequestParam String assetId, @RequestParam String sourceId, HttpServletResponse response) throws IOException {
+        response.setContentType("application/x-ndjson");
+        response.setCharacterEncoding("UTF-8");
+        dataService.streamTimeSeries(assetId, sourceId, response.getOutputStream());
+
+
+    }
+
 
     // ميثود لمنع تكرار الكود والـ NullPointerException
     private Double extractDouble(Double flatValue, Map<String, Double> map, String key) {
@@ -87,6 +100,29 @@ public Iterable<DataEntity> getByRange(
 //                + " | Price: " + dataRecord.getValuesdouble().get("price"));
 //        return dataService.saveData(dataRecord);
 //    }
+
+    @GetMapping
+    public ResponseEntity<TimeSeriesResponse>  getFormattedTimeSeries(
+            @RequestParam String assetId,
+            @RequestParam String dataSourceId,
+            @RequestParam @DateTimeFormat (iso = DateTimeFormat.ISO.DATE) LocalDate startBusinessDate,
+            @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate endBusinessDate,
+            @RequestParam(defaultValue = "false") boolean includeAttributes,
+
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "20") int size
+
+
+
+            )
+    {
+        TimeSeriesResponse response = dataService.getTimeSeriesFormatted(
+                assetId, dataSourceId,
+                startBusinessDate, endBusinessDate,
+                includeAttributes, page, size
+        );
+        return ResponseEntity.ok(response);
+    }
 
 
 }

@@ -3,6 +3,10 @@ package com.example.goldenhosewarehouse.api.web;
 import com.example.goldenhosewarehouse.dal.domain.DataSourceEntity;
 import com.example.goldenhosewarehouse.dal.service.DataService;
 import com.example.goldenhosewarehouse.dal.service.DataSourceService;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Slice;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -36,5 +40,18 @@ public List<String> getAllSources() {
     public DataSourceEntity createSource(@RequestBody DataSourceEntity source) {
         return dataSourceService.createSource(source);
     }
+
+    // Inside your @RestController class
+    @GetMapping("/pagedresources")
+    public ResponseEntity<Slice<DataSourceEntity>> getAllSourcesPaged(
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "10") int size
+    ) {
+        Pageable pageable = PageRequest.of(page, size);
+        return ResponseEntity.ok(dataSourceService.getAllSourcesPaged(pageable));
+    }
+
+
+
 
 }
